@@ -40,6 +40,7 @@ public class MergeCover {
                 peek[1] = Math.max(curInterval[1], peek[1]);
             }
         }
+
         return result.toArray(new int[result.size()][]);
     }
 }
