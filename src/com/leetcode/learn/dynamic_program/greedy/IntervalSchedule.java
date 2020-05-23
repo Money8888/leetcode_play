@@ -1,4 +1,4 @@
-package com.leetcode.learn.opt.greedy;
+package com.leetcode.learn.dynamic_program.greedy;
 
 import java.util.Arrays;
 import java.util.Comparator;

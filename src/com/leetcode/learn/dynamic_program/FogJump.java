@@ -1,4 +1,4 @@
-package com.leetcode.learn.opt;
+package com.leetcode.learn.dynamic_program;
 
 
 import java.util.HashMap;

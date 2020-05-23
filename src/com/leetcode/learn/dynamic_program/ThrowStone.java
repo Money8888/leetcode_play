@@ -1,4 +1,4 @@
-package com.leetcode.learn.opt;
+package com.leetcode.learn.dynamic_program;
 
 /**
  * 经典！
