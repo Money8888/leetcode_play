@@ -1,0 +1,26 @@
+二叉堆
+用数组实现的二叉树
+典型运用：
+    堆排序
+    优先级队列
+
+// 一般索引为0的节点空着
+// node的父节点索引
+int parent(int node_index){
+    return node_index / 2;
+}
+// node的左孩子节点索引
+int left(int node_index){
+    return 2 * node_index;
+}
+// node的右孩子节点索引
+int right(int node_index){
+    return 2 * node_index + 1;
+}
+
+⼆叉堆还分为最⼤堆和最⼩堆。
+    最⼤堆的性质是：每个节点都⼤于等于它的两个⼦节点
+    最小堆的性质是：每个节点都小于等于他的两个子节点
+优先级队列：
+    插⼊或者删除元素的时候，元素会⾃动排序
+    主要有上沉(节点比父节点大，上位)和下浮两种操作(父节点比子节点小，下位)，时间复杂度(O(logK))

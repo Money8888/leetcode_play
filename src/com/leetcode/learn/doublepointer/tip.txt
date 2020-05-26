@@ -1,0 +1,15 @@
+双指针：
+    快慢指针：比如链表中是否有环，慢的追上快的说明有环
+    左右指针：主要解决数组的问题,有序数组尤为有效
+        典型案例：滑动窗口
+            int left = 0, right = 0;
+            while (right < s.size()) {
+                // 先让右指针走
+                window.add(s[right]);
+                right++;
+                while (valid) {
+                    // 满足条件了然后左指针开始走
+                    window.remove(s[left]);
+                    left++;
+                }
+            }
